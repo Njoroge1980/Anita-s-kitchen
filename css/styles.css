@@ -15,16 +15,31 @@
 }
 
 .bf {
-  padding:80px;
+  padding:50px;
   background-image: url(/home/njoroge/Desktop/moringa/Anitas-kitchen/img/breakfast.jpg);
+  color:white;
 }
 
 .lch {
-  padding: 80px;
+  padding: 50px;
   background-image: url(/home/njoroge/Desktop/moringa/Anitas-kitchen/img/lunch.jpg);
+  color:white;
 }
 
 .dnr {
-  padding:80px;
+  padding:50px;
   background-image: url(/home/njoroge/Desktop/moringa/Anitas-kitchen/img/dinner.jpg);
+  color:white;
+}
+
+.stack {
+  padding:25px;
+
+}
+
+.stack2 {
+  padding:25px;
+  
+  background-color: red;
+
 }
