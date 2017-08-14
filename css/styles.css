@@ -1,11 +1,30 @@
-.green-background {
-  background-color: green;
+
+.headline {
+    background-position: center;
+    text-align: center;
 }
 
-.yellow-background {
-  background-color: yellow;
+.headline  {
+    background-image: url(/home/njoroge/Desktop/moringa/Anitas-kitchen/img/landing.jpg);
 }
 
-.red-background {
-  background-color: red;
+.headline p {
+    font-size: 14;
+    color:white;
+
+}
+
+.bf {
+  padding:80px;
+  background-image: url(/home/njoroge/Desktop/moringa/Anitas-kitchen/img/breakfast.jpg);
+}
+
+.lch {
+  padding: 80px;
+  background-image: url(/home/njoroge/Desktop/moringa/Anitas-kitchen/img/lunch.jpg);
+}
+
+.dnr {
+  padding:80px;
+  background-image: url(/home/njoroge/Desktop/moringa/Anitas-kitchen/img/dinner.jpg);
 }
