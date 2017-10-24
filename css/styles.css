@@ -17,13 +17,13 @@
   border:10px;
 }
 .one{
-  margin-right: 0px;
-  border-right: 0px;
-  padding-right: 0px;
+  margin-right: -30px;
+  padding-bottom: 130px;
+
 }
  .party{
    background-color: orange;
-   height:60px;
+   height:97px;
    padding:20px;
  }
  .happy{
@@ -32,21 +32,26 @@
  }
 
 .bf {
+  margin-top:-10px;
   padding:70px;
   background-image: url(../img/breakfast.jpg);
   color:white;
   background-position: left;
+  margin-right: -50px;
 }
 
 .lch {
+  margin-top:-10px;
   padding:70px;
-
+  margin-right: -50px;
   background-image: url(../img/lunch.jpg);
   color:white;
 }
 
 .dnr {
+  margin-top:-10px;
   padding:70px;
+  margin-right: -31px;
   background-image: url(../img/dinner.jpg);
   color:white;
 }
@@ -56,17 +61,30 @@
 }
 
 .third {
-  padding-top:40px;
+  padding-top:80px;
+  padding-bottom: 100px;
 }
 
-.photo2 {
-  padding:20px;
-  height:auto;
-  float:right;
+
+
+.flex-container {
+  display:flex;
+  align-items: center;
+  flex-direction: row;
+  padding-left: 80px;
+  padding-right: 80px;
+  object-fit: fill;
+  min-height: 500px;
+  background-attachment: fixed;
+  justify-content: space-around;
+  border-style: solid;
+  border-width: thick;
+  border-color: white;
+  background-image: url("../img/foodsBg.jpg");
+
 }
 
-.text {
-  padding: 20px;
-  float: left;
-  height:auto;
+h3 {
+  color: green;
+  padding-left: 50px;
 }
