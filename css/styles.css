@@ -5,7 +5,7 @@
 }
 
 .headline  {
-    background-image: url(/home/njoroge/Desktop/moringa/Anitas-kitchen/img/landing.jpg);
+    background-image: url(../img/landing.jpg);
 }
 
 .headline p {
@@ -13,18 +13,60 @@
     color:white;
 
 }
+.first{
+  border:10px;
+}
+.one{
+  margin-right: 0px;
+  border-right: 0px;
+  padding-right: 0px;
+}
+ .party{
+   background-color: orange;
+   height:60px;
+   padding:20px;
+ }
+ .happy{
+   height:60px;
+   padding:20px;
+ }
 
 .bf {
-  padding:80px;
-  background-image: url(/home/njoroge/Desktop/moringa/Anitas-kitchen/img/breakfast.jpg);
+  padding:70px;
+  background-image: url(../img/breakfast.jpg);
+  color:white;
+  background-position: left;
 }
 
 .lch {
-  padding: 80px;
-  background-image: url(/home/njoroge/Desktop/moringa/Anitas-kitchen/img/lunch.jpg);
+  padding:70px;
+
+  background-image: url(../img/lunch.jpg);
+  color:white;
 }
 
 .dnr {
-  padding:80px;
-  background-image: url(/home/njoroge/Desktop/moringa/Anitas-kitchen/img/dinner.jpg);
+  padding:70px;
+  background-image: url(../img/dinner.jpg);
+  color:white;
+}
+
+.second{
+  margin-top: 30px;
+}
+
+.third {
+  padding-top:40px;
+}
+
+.photo2 {
+  padding:20px;
+  height:auto;
+  float:right;
+}
+
+.text {
+  padding: 20px;
+  float: left;
+  height:auto;
 }
